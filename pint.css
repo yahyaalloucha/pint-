@@ -1,0 +1,105 @@
+body {
+  background: linear-gradient(90deg, pink, purple, green, yellow);
+}
+
+h1 {
+  padding: 10px;
+  background-color: gray;
+  border-radius: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  animation: color-change 5s infinite;
+  text-align: center;
+  font-size: 50px;
+  margin-left: 5%;
+  margin-top: -5px;
+  margin-right: 5%;
+  background: linear-gradient(90deg, crimson, brown, blue, gray);
+}
+
+@keyframes color-change {
+  0% {
+    color: rgb(0, 255, 76);
+  }
+  10% {
+    color: red;
+  }
+  20% {
+    color: rgb(199, 45, 178);
+  }
+  30% {
+    color: orange;
+  }
+  40% {
+    color: yellow;
+  }
+  50% {
+    color: lime;
+  }
+  60% {
+    color: blue;
+  }
+  70% {
+    color: purple;
+  }
+  80% {
+    color: rgb(0, 238, 255, 0.26);
+  }
+  90% {
+    color: rgb(187, 255, 0);
+  }
+  100% {
+    color: rgb(255, 187, 0);
+  }
+}
+h1:hover {
+  background-color: brown;
+}
+
+.post {
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: -25px;
+  color: crimson;
+}
+
+#box {
+  width: 800px;
+  height: 800px;
+  background-color: brown;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-top: -210px;
+}
+
+#bar {
+  padding: 10px;
+  margin-left: 50%;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#enter {
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background: linear-gradient(90deg, crimson, brown, blue, gray);
+}
+
+#reset {
+  padding: 20px;
+  margin-top: 120px;
+  margin-left: 65%;
+  border-radius: 10px;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background: linear-gradient(90deg, crimson, brown, blue, gray);
+}
+.square {
+  background-color: #333;
+  border: 1px white double;
+  box-sizing: border-box;
+}
